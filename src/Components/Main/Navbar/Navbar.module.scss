@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 71px 0;
+
+    &>*+* {
+        margin-left: 31px;
+    }
+
+    li {
+        color: #391400;
+        cursor: pointer;
+    }
+}
+
+.active {
+    color: #16CD53 !important;
+}
+
+@media(max-width:1039px) {
+    .navbar{
+    display: none;
+    }
+}

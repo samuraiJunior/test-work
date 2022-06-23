@@ -1,0 +1,90 @@
+.active {
+    border: 3px solid #4FE24A;
+}
+
+
+
+.Items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 21px;
+    row-gap: 35px;
+}
+
+.ItemCard {
+    width: 370px;
+    height: 416px;
+    border-radius: 3px;
+    position: relative;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    h3 {
+        color: white;
+        position: absolute;
+        bottom: 13%;
+        left: 16%;
+        font-size: 40px;
+    }
+
+    button {
+        border-radius: 25px;
+        background-color: white;
+        position: absolute;
+        bottom: 30%;
+        left: 16%;
+        font-size: 16px;
+        padding: 8px;
+    }
+}
+
+.btnWrapper {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    margin-top: 51px;
+
+    button {
+        color: black;
+        padding: 11px 37px;
+        //border: 1px solid rgba(255, 255, 255, 0.361);
+        background-color: white;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+}
+
+@media(max-width:1351px) {
+    .Items {
+        justify-content: center;
+    }
+}
+
+@media (max-width:1039px) {
+    .Items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ItemCard {
+        width: 329px;
+    }
+}
+
+@media (max-width:572px) {
+    .ItemCard {
+        width: 330px;
+    }
+
+}
+
+@media (max-width:388px) {
+    .ItemCard {
+        width: 280px;
+    }
+
+}

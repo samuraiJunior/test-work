@@ -1,0 +1,17 @@
+.App {
+  max-width: 1400px;
+  height: auto;
+  margin: 50px auto;
+  color: white;
+}
+
+.mainContainer {
+  min-height: 1400px;
+  background-color: #FDF0E9;
+  padding:21px 100px 50px 100px;
+}
+@media (max-width:572px){
+  .mainContainer{
+    padding:21px 30px 50px 30px;
+  }
+}
